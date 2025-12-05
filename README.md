@@ -6,4 +6,4 @@ Currently only available as a Chrome extension.
 
 ---
 
-The extension will soon be published here:
+The extension will soon be published here: https://chromewebstore.google.com/detail/gjdplcnfnkhjbadollbdoiehbhecdcfo
