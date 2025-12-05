@@ -1,0 +1,34 @@
+{
+	"name": "akitailor",
+	"version": "0.0.1",
+	"main": "build.js",
+	"description": "Adds Akitude customization like the mobile Akinator app to the web version.",
+	"type": "module",
+	"scripts": {
+		"build": "node build.js",
+		"lint": "oxlint . --fix",
+		"format": "prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/roblnet13/akitailor.git"
+	},
+	"author": "ROBINET13 & ClaytonTDM",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/roblnet13/akitailor/issues"
+	},
+	"homepage": "https://github.com/roblnet13/akitailor#readme",
+	"devDependencies": {
+		"oxlint": "^1.31.0",
+		"prettier": "^3.7.4"
+	},
+	"dependencies": {
+		"esbuild": "^0.27.1",
+		"fast-glob": "^3.3.3",
+		"jszip": "^3.10.1"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": ["esbuild"]
+	}
+}

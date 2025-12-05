@@ -1,0 +1,31 @@
+ Custom Accessory Importing
+    Import custom items such as bases, hats and clothes
+
+ Saving a render of your Akinator
+    Maybe add stats too? (A thing saying "This Akinator won {NUMBER} games!")
+
+ Outfit Saving
+    Have a maximum of 10 outfit slots
+
+ CSS Layer Styling
+    Have a couple of preset CSS filters for people unfamiliar with CSS,
+    but have an option to set your own filters for those who know what they're doing
+    This would allow for more overall customization
+    Maybe also add a Shadow toggle?
+    Maybe also add a way to adjust the position of each layer along with this?
+    Animation effects such as glowing could be nice for layers
+
+ Popup Background Changing
+    Have the ability to set a custom background for the popup
+
+ Extension Icon Being the Akinator
+    The icon for the extension could be a small headshot render of the Akinator
+    This would be a good idea because
+  1. i have no fucking idea what i would put for the icon honestly
+  2. would be a neat detail that people might enjoy (having a tiny akinator in your extensions would be fun and silly)
+
+ Toggle for a little CSS float animation
+    Would make the Akinator not look as static
+
+ Randomize accessories button
+    🎲 icon

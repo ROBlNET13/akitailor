@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="popup.css" />
+		<script src="accessories.js"></script>
+		<script src="popup.js" type="module"></script>
+		<title>Akitailor</title>
+	</head>
+
+	<body>
+		<div class="title">
+			<img src="../img/ui/logo.webp" alt="Akitailor" />
+		</div>
+		<div class="akinator-images">
+			<img
+				class="akinator-image akinator-base"
+				src="../img/akinator/bases/base_current/defi.webp"
+			/>
+			<img
+				class="akinator-image akinator-clothes"
+				src="../img/akinator/clothes/orient/defi.webp"
+			/>
+			<img
+				class="akinator-image akinator-hat"
+				src="../img/akinator/hats/turban/defi.webp"
+			/>
+		</div>
+
+		<div class="accessory-buttons">
+			<button
+				id="hat-left"
+				class="arrow-hat-left button-arrow"
+				style="top: 200px; left: 75px"
+				type="button"
+			></button>
+			<button
+				id="hat-right"
+				class="arrow-hat-right button-arrow flipped"
+				style="top: 200px; right: 75px"
+				type="button"
+			></button>
+
+			<button
+				id="base-left"
+				class="arrow-base-left button-arrow"
+				style="
+					top: 276px;
+					left: 100px;
+					width: 25px !important;
+					height: 25px !important;
+				"
+				type="button"
+			></button>
+			<button
+				id="base-right"
+				class="arrow-base-right button-arrow flipped"
+				style="
+					top: 276px;
+					right: 100px;
+					width: 25px !important;
+					height: 25px !important;
+				"
+				type="button"
+			></button>
+
+			<button
+				id="clothes-left"
+				class="arrow-clothes-left button-arrow"
+				style="top: 325px; left: 75px"
+				type="button"
+			></button>
+			<button
+				id="clothes-right"
+				class="arrow-clothes-right button-arrow flipped"
+				style="top: 325px; right: 75px"
+				type="button"
+			></button>
+		</div>
+
+		<button
+			id="button-save"
+			class="button-save"
+			style="bottom: 50px"
+			type="button"
+		>
+			Save Changes
+		</button>
+
+		<!--  <button id="button-more" class="button-plus" style="bottom: 25px; right: 25px" type="button"> </button> -->
+	</body>
+</html>

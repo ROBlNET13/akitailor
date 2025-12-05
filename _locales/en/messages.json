@@ -1,0 +1,14 @@
+{
+	"name_long": {
+		"message": "Akitailor - Customize Akinator's costume, outfit, hat for every Akitude."
+	},
+	"name_short": {
+		"message": "Akitailor"
+	},
+	"description": {
+		"message": "Adds Akitude customization like the mobile Akinator app to the web version."
+	},
+	"save_changes": {
+		"message": "Save Changes"
+	}
+}

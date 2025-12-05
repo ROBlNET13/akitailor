@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "Cheboygan";
+	font-style: normal;
+	font-weight: 500;
+	src:
+		local("Cheboygan"),
+		url("../fonts/Cheboygan.ttf") format("truetype");
+}
+
+body {
+	padding: 2em;
+	height: 533px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	background: url("../img/ui/background_home_default.jpg") no-repeat;
+	background-size: 100% 100%;
+	pointer-events: none;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	font-family: "Cheboygan";
+	color: #503007;
+}
+
+button {
+	border: 0;
+	pointer-events: all;
+}
+
+.button-arrow {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background: url("../img/ui/button_arrow.webp") no-repeat;
+	background-size: 100% 100%;
+}
+
+.button-arrow:active {
+	background: url("../img/ui/button_arrow_pressed.webp") no-repeat;
+	background-size: 100% 100%;
+}
+
+.button-save {
+	width: 150px;
+	height: 48px;
+	position: absolute;
+	background: url("../img/ui/button_roundsquare.webp") no-repeat;
+	background-size: 100% 100%;
+	font-family: "Cheboygan";
+	font-size: 18px;
+	color: #4e280b;
+	text-align: center;
+	line-height: 19px;
+}
+
+.button-save:active {
+	background: url("../img/ui/button_roundsquare_pressed.webp") no-repeat;
+	background-size: 100% 100%;
+}
+
+.button-plus {
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	background: url("../img/ui/button_plus.webp") no-repeat;
+	background-size: 100% 100%;
+}
+
+.button-plus:active {
+	background: url("../img/ui/button_plus_pressed.webp") no-repeat;
+	background-size: 100% 100%;
+}
+
+.akinator-images,
+.akinator-image {
+	width: 300px;
+	position: absolute;
+}
+
+.flipped {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.title > img {
+	height: 90px;
+	margin-top: -10px;
+}

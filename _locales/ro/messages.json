@@ -1,0 +1,14 @@
+{
+	"name_long": {
+		"message": "Akroitor - Personalizează costumul, hainele sau pălăria Akinatorului."
+	},
+	"name_short": {
+		"message": "Akroitor"
+	},
+	"description": {
+		"message": "Adaugă personalizare la Akitudine precum aplicația mobilă Akinator la versiunea web."
+	},
+	"save_changes": {
+		"message": "Salvează Schimbările"
+	}
+}

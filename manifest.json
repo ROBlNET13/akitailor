@@ -1,0 +1,33 @@
+{
+	"name": "__MSG_name_long__",
+	"version": "0.9.9",
+	"manifest_version": 3,
+	"description": "__MSG_description__",
+	"permissions": ["storage"],
+	"icons": {
+		"16": "icons/icon16.png",
+		"32": "icons/icon32.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://*.akinator.com/*"],
+			"js": ["src/accessories.js", "src/tailor.js"]
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": ["src/accessories.js", "src/tailor.js", "img/*"],
+			"matches": ["*://*.akinator.com/*"]
+		}
+	],
+	"action": {
+		"default_popup": "src/popup.html"
+	},
+	"background": {
+		"service_worker": "src/background.js",
+		"type": "module"
+	},
+	"default_locale": "en"
+}
