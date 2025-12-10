@@ -20,7 +20,7 @@
 		"gecko": {
 			"id": "akitailor@robinet13",
 			"data_collection_permissions": {
-				"required": []
+				"required": ["none"]
 			}
 		}
 	},
