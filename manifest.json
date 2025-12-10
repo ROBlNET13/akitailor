@@ -1,5 +1,4 @@
 {
-	"id": "hjeggnghidboencjhgfldoobgndpmadm",
 	"name": "__MSG_name_long__",
 	"version": "1.0.0",
 	"manifest_version": 3,
@@ -17,6 +16,11 @@
 			"js": ["src/accessories.js", "src/tailor.js"]
 		}
 	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "@akitailor"
+		}
+	},
 	"web_accessible_resources": [
 		{
 			"resources": ["src/accessories.js", "src/tailor.js", "img/*"],
