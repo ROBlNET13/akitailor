@@ -16,6 +16,11 @@
 			"js": ["src/accessories.js", "src/tailor.js"]
 		}
 	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "@akitailor"
+		}
+	},
 	"web_accessible_resources": [
 		{
 			"resources": ["src/accessories.js", "src/tailor.js", "img/*"],
