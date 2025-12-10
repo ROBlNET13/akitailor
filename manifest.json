@@ -18,7 +18,10 @@
 	],
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "akitailor@robinet13"
+			"id": "akitailor@robinet13",
+			"data_collection_permissions": {
+				"data_usage_consent": false
+			}
 		}
 	},
 	"web_accessible_resources": [
