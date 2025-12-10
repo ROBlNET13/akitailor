@@ -26,8 +26,7 @@
 		"default_popup": "src/popup.html"
 	},
 	"background": {
-		"service_worker": "src/background.js",
-		"type": "module"
+		"scripts": ["src/background.js"]
 	},
 	"default_locale": "en"
 }
